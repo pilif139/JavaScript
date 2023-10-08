@@ -15,14 +15,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
-.main .main_paragraph {
+.main .main_paragraph1, .main .main_paragraph2 {
   font-weight: 700;
 }
-.main .main_paragraph:hover {
+.main .main_paragraph1:hover, .main .main_paragraph2:hover {
   color: yellow;
+}
+.main .main_paragraph2:hover {
+  color: pink;
 }
 @media (max-width: 800px) {
   .main {

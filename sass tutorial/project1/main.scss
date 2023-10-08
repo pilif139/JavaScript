@@ -32,14 +32,21 @@ body{
 
 .main{
     @include flexCenter(row);
-    width: 80%;
+    width: 80% - 20%; //ten sam typ
     margin: 0 auto;
 
-    #{&}_paragraph { // .main_paragraph & = parent
+    #{&}_paragraph1 { // .main_paragraph & = parent
         font-weight: weight(bold);
 
         &:hover{
             color:yellow;
+        }
+    }
+
+    #{&}_paragraph2{
+        @extend .main_paragraph1;
+        &:hover{
+            color:pink;
         }
     }
 
