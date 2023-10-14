@@ -1,0 +1,9 @@
+$bg-color: #222;
+$text-color: white;
+$input-bg: #ebfffc;
+
+@mixin flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
