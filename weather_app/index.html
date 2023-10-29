@@ -13,21 +13,24 @@
     <div class="card">
 
         <div class="search">
-            <input type="text" placeholder="enter city name" spellcheck="false">
+            <input type="text" placeholder="Wprowadź nazwę miasta" spellcheck="false">
             <button><img src="images/search.png" alt="search icon"></button>
         </div>
 
-        <div class="weather">
+        <div class="error">
+            <p>Nieprawidłowa nazwa miasta</p>
+        </div>
+       <div class="weather">
             <img class="weather-icon" src="images/rain.png" alt="wheater">
             <h1 class="temp">22&deg;C</h1>
             <h2 class="city">Poznań</h2>
 
             <div class="details">
                 <div class="col">
-                    <img src="images/humidity.png" alt="humidity">
+                    <img src="images/humidity.png" alt="wilgotność">
                     <div>
                         <p class="humidity">50%</p>
-                        <p>Humidity</p>
+                        <p>wilgotność</p>
                     </div>
                 </div>
 
@@ -35,7 +38,7 @@
                     <img src="images/wind.png" alt="wind">
                     <div>
                         <p class="wind">14 km/h</p>
-                        <p>Wind Speed:</p>
+                        <p>prędkość wiatru</p>
                     </div>
                 </div>
             </div>
@@ -43,5 +46,7 @@
         </div>
 
     </div>
+    <script src="script.js">
+    </script>
 </body>
 </html>

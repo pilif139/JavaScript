@@ -53,8 +53,13 @@
 
     @media (max-width: 1100px){
         .social-icons{
-            display: flex;
-            flex-direction: column;
+            transform:
+            rotate(-90deg) translate(4rem, -5rem);
+            a{
+                i{
+                transform: rotate(90deg);
+                }
+            }
         }
 
         footer{

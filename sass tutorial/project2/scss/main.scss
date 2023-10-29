@@ -42,10 +42,14 @@ main{
         position: fixed;
         bottom: 1rem;
         left: 1rem;
+        @include transition-ease;
 
         a{
             padding: 0.4rem;
             @include transition-ease;
+            i{
+                @include transition-ease;
+            }
 
             &:hover{
                 color: $secondary-color;
