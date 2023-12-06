@@ -1,0 +1,144 @@
+*{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    color: white;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 80vw;
+}
+nav{
+    background-color:slategray;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+button{
+    margin: 0.5em;
+    border: none;
+    font-size: 0.9rem;
+    color: white;
+    background-color:slateblue;
+    width: 8rem;
+    height: 2.5em;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: slategray;
+    color: white;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+form{
+    width: 40vw;
+    height: 25%;
+    position: fixed;
+    bottom: 40%;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    border-radius: 0.7em;
+}
+form button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: slategray;
+}
+#form-container{
+    margin: 0 5rem;
+    width: 100%;
+    height: 100%;
+}
+input[name="plec"]{
+    margin: 0.4em;
+}
+input[type="text"]{
+    width: 50%;
+    height: 10%;
+    margin: 0.2em;
+    border: none;
+    border-radius: 0.2em;
+}
+#closeBtn{
+    width: 2em;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+#addBtn{
+    margin: 0.5em 0;
+}
+#error{
+    position: fixed;
+    top: 25vh;
+    opacity: 0.8;
+    height: 8vh;
+    width: 40vw;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    background-color: red;
+    border-radius: 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+div.osoba img{
+    width: 30%;
+    height: 30%;
+    margin: 0;
+}
+div.osoba h1,div.osoba p{
+    margin: 1em;
+}
+div.osoba{
+    margin: 1em;
+    border: 2px solid black;
+    transition: 0.8s ease-in-out;
+}
+div.osoba p{
+    font-size: 1.5em;
+    opacity: 0.4;
+    transition: 0.8s ease-in-out;
+}
+div.osoba p:hover{
+    opacity: 1;
+}
+
+footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 0.6em;
+    padding: 5px;
+    background-color: slateblue;
+}
