@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1</title>
+    <style>
+        *{
+            margin: 0 auto;
+        }
+        @keyframes zmianaTła{
+            0% {background-color: #f2e6ff;}
+            20% {background-color:cornflowerblue ;}
+            30%{background-color: blue;}
+            50%{background-color: springgreen;}
+            65%{background-color: teal;}
+            80%{background-color: slateblue;}
+            100%{ background-color: slategray;}
+        }
+
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:burlywood;
+            height: 100vh;
+            animation: zmianaTła 30s  infinite ease-in-out;
+        }
+        div{
+            width: 60%;
+            height: 40%;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+        h1,p{ margin: 0.6em;}
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="dzień">Dzisiaj jest </h1>
+        <p id="ciekawostka"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
