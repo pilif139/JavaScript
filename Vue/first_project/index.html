@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First vue project</title>
+    <style>
+        .box{
+            background-color: purple;
+            height: 200px;
+            width: 200px;
+            color: white;
+            display: grid;
+            place-items: center;
+        }
+        /* atrybut który znika po załadowaniu sie calego DOMa*/
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" v-cloak>
+        v-model: 
+        {{greeting}}
+        <input @keyup.enter="greet(greeting)" type="text" v-model="greeting">
+
+        <hr>
+
+        <button @click="toggleBox">Show Box</button>
+
+        <div v-if="isVisible" class="box">box 1</div>
+
+        <!--
+        <div v-else-if="isVisible2" class="box">box 2</div>
+        <div v-else class="box">box 3</div>
+        -->
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        let app = Vue.createApp({
+            data: function(){
+                return {
+                    greeting: 'Name',
+                    isVisible: false, //v-if - renderuje, v-show ustawia display na none jesli jest false
+                    isVisible2: false,
+                }
+            },
+            methods: {
+                toggleBox(){
+                    this.isVisible =!this.isVisible;
+                },
+                greet(greeting){
+                    console.log(`Hello ${greeting}`);
+                }
+            },
+        });
+        app.mount('#app');
+    </script>
+</body>
+</html>
