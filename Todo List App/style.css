@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 100vh;
     font-family: "Montserrat", sans-serif;
 }
 input, select, textarea, button{font-family:inherit;}
@@ -52,13 +51,16 @@ header input::placeholder{
     font-weight: bold;
     text-align: center;
 }
+header input:focus{
+    height: 4em;
+}
 
 #submitBtn {
     border: none;
     background: rgb(0, 255, 65);
     background: radial-gradient(circle, rgba(0, 255, 65, 1) 0%, rgba(246, 110, 151, 1) 67%);
     color: white;
-    border-radius: 3px;
+    border-radius: 10px;
     height: 2.2em;
     width: 7rem;
     font-weight: bolder;
@@ -67,10 +69,19 @@ header input::placeholder{
      -webkit-box-shadow: inset 0px 0px 24px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: inset 0px 0px 24px -12px rgba(66, 68, 90, 1);
     box-shadow: inset 0px 0px 24px -12px rgba(66, 68, 90, 1);
+    transition: 0.5s ease-in-out;
+}
+#submitBtn:hover{
+    transform: scale(0.95);
+    background: rgb(63,218,251);
+    background: radial-gradient(circle, rgba(63,218,251,1) 0%, rgba(246,110,245,1) 31%, rgba(246,115,154,1) 76%, rgba(87,242,141,1) 100%);
 }
 
 main {
     margin: 1em;
+}
+main > h2{
+    display: none;
 }
 
 input.error {
@@ -99,16 +110,18 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 8px;
+    border-radius: 10px;
     margin: 1em;
-    padding-left: 1em;
     -webkit-box-shadow: inset 0px 0px 15px -4px rgba(255, 255, 255, 1);
     -moz-box-shadow: inset 0px 0px 15px -4px rgba(255, 255, 255, 1);
     box-shadow: inset 0px 0px 15px -4px rgba(255, 255, 255, 1);
     transition: 0.5s ease-in-out;
 }
 
-.todo_element div {
+.todo_element div:first-of-type{
+    margin-left: 10px;
+}
+.todo_element div:last-of-type{
     margin-right: 10px;
 }
 
@@ -118,7 +131,7 @@ main {
     font-weight: bold;
     width: 7rem;
     height: 2rem;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -145,7 +158,12 @@ main {
 .editing input{
     border: none;
     background-color: inherit;
-    color: white;
+    color: color;
     font-weight: bold;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
+}
+.editing{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid black;
 }
