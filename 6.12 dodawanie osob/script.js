@@ -3,10 +3,10 @@ let osoby = document.getElementById("osoby");
 let addBtn = document.querySelector("#addBtn");
 
 btn.addEventListener("click", () => {
-    document.querySelector("form").style.display == "flex" ? document.querySelector("form").style.display = "none" :
+    document.querySelector("form").style.display === "flex" ? document.querySelector("form").style.display = "none" :
         document.querySelector("form").style.display = "flex";
 
-    if (document.querySelector("#error").style.display == "flex") {
+    if (document.querySelector("#error").style.display === "flex") {
         document.querySelector("#error").style.display = "none";
     }
 });

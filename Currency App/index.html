@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="time">Ostatni raz aktualizowano: </div>
+        <form>
+            <select id="baseCurrency">
+                <option value="PLN" selected>PLN</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+            <label for="ilosc">Podaj ilość:</label>
+            <input type="text" name="ilosc" id="ilosc">
+            <br>
+            <br>
+            <button type="button" id="search">Szukaj</button>
+        </form>
+        <div id="convertedValues">
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
