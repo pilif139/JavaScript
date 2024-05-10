@@ -1,7 +1,8 @@
 .header-container{
     margin: 3em;
-    background-color: rgb(88, 88, 88);
-    width: 50%; /* lub auto*/
+    background: rgb(93,104,131);
+    background: linear-gradient(135deg, rgba(93,104,131,1) 18%, rgba(94,117,179,1) 40%, rgba(111,142,226,1) 60%, rgba(95,138,255,1) 87%);
+    width: 50vw; /* lub auto*/
     height: 35vh;
     display: flex;
     flex-flow: column wrap;
@@ -12,6 +13,11 @@
     -moz-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 1);
     transition: 0.5s ease-in-out;
+}
+.header-container:hover{
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 50px 0px rgba(66, 68, 90, 1);
 }
 
 /* animacje */
@@ -26,7 +32,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 0.1em;
+    height: 10%;
     background-color: white;
     opacity: 0;
     transform: translate3d(-100%,0,0);

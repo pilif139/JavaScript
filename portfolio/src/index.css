@@ -14,5 +14,5 @@ body{
     height: 100%;
     max-width: 100vw;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }

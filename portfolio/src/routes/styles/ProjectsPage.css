@@ -1,0 +1,16 @@
+.projects-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-page .navbar{
+    width: auto;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+.hamburger-react{
+    color: white;
+    margin: 1em;
+}

@@ -6,7 +6,6 @@
 
 .social-media .social-icon{
     margin: 0 0.5em;
-    background-color: hsl(0, 0%, 35%);
     border-radius: 10px;
     transition: 0.25s ease-in-out;
 }
@@ -17,7 +16,7 @@
 .social-media > a{
     color: white;
     text-decoration: underline 4px;
-    text-decoration-color: hsl(0, 0%, 35%);
+    text-decoration-color: rgba(255, 255, 255, 0);
     transition: 0.3s ease-in-out;
 }
 .social-media > a:hover{
