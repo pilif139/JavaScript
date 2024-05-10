@@ -6,7 +6,7 @@ export default function Projects() {
     const projects = [{
         name: "To do list",
         description: 
-        "Simple to do list application made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaiotion made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaiotion made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaiotion made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaiotion made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaiotion made with vanilla javascript.dasijdasjdasidjasiodjanoinozxcnzicnsaoicascadsadadadad. fisahfiaojhfiaofhjasifojaio",
+        "Simple to do list applicat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error ea, modi quod reiciendis vel.Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error ea, modi quod reiciendis vel.Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error ea, modi quod reiciendis vel.Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error ea, modi quod reiciendis vel.",
 
         link: "https://github.com/pilif139/JavaScript/tree/main/Todo%20List%20App",
     },
