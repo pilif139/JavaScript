@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import './styles/Header.css'
 import SocialMedia from './SocialMedia'
 
 export default function Header() {

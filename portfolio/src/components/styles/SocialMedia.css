@@ -4,21 +4,22 @@
     font-size: 1.5em;
 }
 
-.social-media a{
+.social-media .social-icon{
     margin: 0 0.5em;
     background-color: hsl(0, 0%, 35%);
     border-radius: 10px;
     transition: 0.25s ease-in-out;
 }
-.social-media a:hover{
+.social-media .social-icon:hover{
     background-color: hsl(0, 0%, 25%);
 }
 
-.social-media > span{
+.social-media > a{
+    color: white;
     text-decoration: underline 4px;
     text-decoration-color: hsl(0, 0%, 35%);
     transition: 0.3s ease-in-out;
 }
-.social-media > span:hover{
+.social-media > a:hover{
     text-decoration-color: white;
 }
