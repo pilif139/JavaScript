@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: grid;
+    grid:  15vh 35vh 35vh 15vh / 1fr;
+}
+header,nav,section,footer{
+    transition: 0.4s ease-in-out;
+}
+header:hover, nav:hover, section:hover,footer:hover{
+    -webkit-box-shadow: inset 0px 0px 26px 3px rgba(66, 68, 90, 1);
+-moz-box-shadow: inset 0px 0px 26px 3px rgba(66, 68, 90, 1);
+box-shadow: inset 0px 0px 26px 3px rgba(66, 68, 90, 1);
+}
+header{
+    background-color:#A07C64;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+nav{
+    background-color: #CA885C;
+    display: grid;
+    place-items: center;
+}
+nav ol{
+    display: grid;
+    place-items: center;
+    width: 80%;
+    border: 2px solid #4B443F;
+}
+section{
+    background-color: #75675D;
+    display: grid;
+    grid: 1fr/ 1fr 1fr 1fr;
+}
+section ol{
+    height: 28vh;
+    overflow: scroll;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #4B443F;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+footer a{
+    color: white;
+}
