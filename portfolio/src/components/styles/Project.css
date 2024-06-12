@@ -22,9 +22,6 @@
 }
 .project-container a{
     text-decoration: none;
-    color: hsl(0, 0%, 90%);
-    font-size: 1.5em;
-    transition: 0.3s ease-in-out;
 }
 .project-info{
     display: flex;
@@ -41,4 +38,10 @@
 
 .project-info a:hover{
     color: hsl(209, 100%, 75%);
+}
+.linkToCode{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
