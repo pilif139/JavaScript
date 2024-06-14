@@ -9,9 +9,6 @@
     border-radius: 10px;
     transition: 0.25s ease-in-out;
 }
-.social-media .social-icon:hover{
-    background-color: hsl(0, 0%, 25%);
-}
 
 .social-media > a{
     color: white;

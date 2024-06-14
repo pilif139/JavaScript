@@ -38,6 +38,9 @@
     text-wrap: wrap;
     display: inline-block;
 }
+.project-info a{
+    margin-top: 1em;
+}
 
 .project-info a:hover{
     color: hsl(209, 100%, 75%);

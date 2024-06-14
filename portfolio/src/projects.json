@@ -1,0 +1,30 @@
+{
+    "projects" : [
+    {
+        "name": "To Do List App",
+        "description": "Simple to do list application made with vanilla JS.",
+        "link": "https://github.com/pilif139/JavaScript/tree/main/Todo%20List%20App"
+    },
+    {
+        "name": "Another To Do List App",
+        "description": "Simple to do list application made with React.",
+        "link": "https://github.com/pilif139/react/tree/main/todoApp/src"
+    },
+    {
+        "name": "Calculator",
+        "description": "Calculator app based on windows calculator.",
+        "link": "https://github.com/pilif139/react/tree/main/Calculator"
+    },
+    {
+        "name": "Paint",
+        "description": "Paint app made with canvas and react. Still making it so might be buggy.",
+        "link": "https://github.com/pilif139/react/tree/main/Paint"
+    },
+    {
+        "name": "Image Gallery",
+        "description": "Image gallery app made with react using pixabay api. It's also hosted on Github Pages",
+        "link": "https://github.com/pilif139/image_gallery",
+        "hostlink": "https://pilif139.github.io/image_gallery/"
+    }
+]
+}
