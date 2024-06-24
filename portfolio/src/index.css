@@ -2,10 +2,17 @@
 
 *{
   margin: 0 auto;
+<<<<<<< HEAD
   font-family: 'Radio Canada Big';
 }
 body{
   background-color: #0F0F0F;
+=======
+}
+body{
+  background-color: #0F0F0F;
+  font-family: 'Radio Canada Big';
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
   height: auto;
   background: rgb(31,31,31);
   background: linear-gradient(135deg, rgba(31,31,31,1) 12%, rgba(19,19,19,1) 96%);

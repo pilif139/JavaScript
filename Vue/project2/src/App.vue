@@ -29,7 +29,11 @@
                 </div>
             </div> -->
         </div>
+<<<<<<< HEAD
     </div>
+=======
+    </div>k
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
 </template>
 
 <style scoped>

@@ -1,5 +1,5 @@
 {
-  "name": "project2",
+  "name": "project1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,15 +12,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@vitejs/plugin-vue": "^5.0.4",
-=======
-    "@eslint/js": "^9.3.0",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "eslint": "^9.3.0",
-    "eslint-plugin-vue": "^9.26.0",
-    "globals": "^15.3.0",
->>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
     "vite": "^5.2.0"
   }
 }

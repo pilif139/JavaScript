@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import React from 'react'
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
 import { Link } from 'react-router-dom'
 import './styles/Navbar.css'
 

@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "hamburger-react": "^2.5.0",
+<<<<<<< HEAD
     "json-server": "^1.0.0-beta.1",
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
@@ -21,10 +24,13 @@
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
+<<<<<<< HEAD
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
     "vite": "^5.2.0"
   }
 }

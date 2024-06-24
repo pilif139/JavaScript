@@ -9,6 +9,12 @@
     border-radius: 10px;
     transition: 0.25s ease-in-out;
 }
+<<<<<<< HEAD
+=======
+.social-media .social-icon:hover{
+    background-color: hsl(0, 0%, 25%);
+}
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
 
 .social-media > a{
     color: white;

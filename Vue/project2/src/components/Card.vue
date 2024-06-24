@@ -1,6 +1,9 @@
 <script setup>
+<<<<<<< HEAD
     import {defineProps} from "vue";
 
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
     const {quiz} = defineProps(['quiz']);
 </script>
 

@@ -22,9 +22,12 @@
 }
 .project-container a{
     text-decoration: none;
+<<<<<<< HEAD
     color: hsl(0, 0%, 90%);
     font-size: 1.5em;
     transition: 0.3s ease-in-out;
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
 }
 .project-info{
     display: flex;
@@ -38,10 +41,22 @@
     text-wrap: wrap;
     display: inline-block;
 }
+<<<<<<< HEAD
 .project-info a{
     margin-top: 1em;
 }
+=======
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
 
 .project-info a:hover{
     color: hsl(209, 100%, 75%);
 }
+<<<<<<< HEAD
+=======
+.linkToCode{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+>>>>>>> 0d19f6fc1379de550211299fd2f1f5200faf78fc
